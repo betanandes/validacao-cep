@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="validacao_cep.css"> -->
+</head>
+<body>
+    <form>
+        <h1>Validação Endereço</h1> <br>
+        <input type="text" id="idCep" placeholder="CEP" onblur="preencherEndereco(this)">
+         <br>
+         <br>
+        <input type="text" id="idRua" placeholder="Logradouro" onblur="preencherEndereco(this)">
+         <br>
+         <br>
+        <input type="text" id="idBairro" placeholder="Bairro" onblur="preencherEndereco(this)"> 
+        <br>
+        <br>
+        <input type="text" id="idUf" placeholder="UF" onblur="preencherEndereco(this)"> 
+        <br>
+        <br>
+        <input type="text" id="idComp" placeholder="Complemento" onblur="preencherEndereco(this)"> 
+        <br>
+        <br>
+        <input type="text" id="idNumero" placeholder="Número" onblur="preencherEndereco(this)"> 
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button> 
+    </form>
+</body>
+<script src="validacao_cep.js"></script>
+</html>
